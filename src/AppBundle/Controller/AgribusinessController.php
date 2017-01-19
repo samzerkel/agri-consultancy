@@ -1,27 +1,23 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+namespace AppBundle\Controller;
+/**
+ * this controller is for agribusiness page in the consultancy agency website 
+ * 
+ * @author samson keleta <samize97@gmail.com>  
  */
 
-namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-/**
- * Description of AgribusinessController
- *
- * @author samiz
- */
 class AgribusinessController extends Controller {
-    //put your code here
     /**
+     * this method gives output for agribusiness.html.twig 
+     * 
      * @Route("/agribusiness")
      */
-    public function agribusinessConsultnacy () {
+    public function agribusinessconsultnacyAction () {
         return $this->render('consultancy/agribusiness.html.twig');
         
     }
