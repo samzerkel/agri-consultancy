@@ -23,6 +23,7 @@ class ConsultancyController extends Controller {
      *
      * @return Response
      */
+    
     public function consultAction(Request $request) {
         $response = $this->render('consultancy/index.html.twig');
 
