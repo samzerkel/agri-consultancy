@@ -19,7 +19,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class AgribusinessController extends Controller {
     //put your code here
     /**
-     * @Route("agribusiness")
+     * @Route("/agribusiness")
      */
     public function agribusinessConsultnacy () {
         return $this->render('consultancy/agribusiness.html.twig');
